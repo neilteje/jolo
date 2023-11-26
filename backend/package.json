@@ -1,0 +1,30 @@
+{
+  "name": "slacker",
+  "version": "1.0.0",
+  "repository": "git@github.com:hackclub/slacker.git",
+  "author": "Faisal Sayed <faisal.sayed502@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.456.0",
+    "@supabase/supabase-js": "^2.38.5",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "tsx": "^3.12.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/express-fileupload": "^1.4.4",
+    "@types/node": "^18.16.0",
+    "eslint": "^8.39.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
